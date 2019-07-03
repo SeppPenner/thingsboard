@@ -11,7 +11,9 @@
   ],
   "scripts": {
     "start": "babel-node --max_old_space_size=4096 server.js",
-    "build": "cross-env NODE_ENV=production webpack -p"
+    "build": "cross-env NODE_ENV=production webpack -p",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@flowjs/ng-flow": "^2.7.1",
@@ -80,7 +82,8 @@
     "split.js": "^1.0.7",
     "tinycolor2": "^1.4.1",
     "typeface-roboto": "0.0.22",
-    "v-accordion": "^1.6.0"
+    "v-accordion": "^1.6.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
@@ -130,5 +133,6 @@
       "node_modules",
       "target"
     ]
-  }
+  },
+  "snyk": true
 }
