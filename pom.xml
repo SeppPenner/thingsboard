@@ -29,7 +29,7 @@
 
     <properties>
         <main.dir>${basedir}</main.dir>
-        <spring-boot.version>2.0.0.RELEASE</spring-boot.version>
+        <spring-boot.version>2.0.5.RELEASE</spring-boot.version>
         <spring.version>4.3.4.RELEASE</spring.version>
         <spring-security.version>4.2.0.RELEASE</spring-security.version>
         <jjwt.version>0.7.0</jjwt.version>
@@ -48,7 +48,7 @@
         <commons-validator.version>1.5.0</commons-validator.version>
         <commons-io.version>2.5</commons-io.version>
         <commons-csv.version>1.4</commons-csv.version>
-        <jackson.version>2.9.9</jackson.version>
+        <jackson.version>2.9.9.1</jackson.version>
         <json-schema-validator.version>2.2.6</json-schema-validator.version>
         <scala.version>2.11</scala.version>
         <akka.version>2.4.2</akka.version>
