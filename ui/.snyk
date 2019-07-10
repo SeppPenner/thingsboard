@@ -5,9 +5,9 @@ ignore: {}
 patch:
   SNYK-JS-LODASH-450202:
     - react-schema-form > lodash:
-        patched: '2019-07-03T21:48:41.751Z'
+        patched: '2019-07-04T06:22:25.563Z'
     - reactcss > lodash:
-        patched: '2019-07-03T21:48:41.751Z'
+        patched: '2019-07-04T06:22:25.563Z'
     - react-ace > opencollective > inquirer > lodash:
         patched: '2019-07-03T21:48:41.751Z'
     - snyk > snyk-mvn-plugin > lodash:
