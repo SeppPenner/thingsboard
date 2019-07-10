@@ -10,3 +10,7 @@ patch:
         patched: '2019-07-03T21:48:41.751Z'
     - react-ace > opencollective > inquirer > lodash:
         patched: '2019-07-03T21:48:41.751Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-10T07:40:03.459Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-10T07:40:03.459Z'
