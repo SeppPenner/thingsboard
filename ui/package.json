@@ -83,7 +83,7 @@
     "tinycolor2": "^1.4.1",
     "typeface-roboto": "0.0.22",
     "v-accordion": "^1.6.0",
-    "snyk": "^1.192.4"
+    "snyk": "^1.231.0"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
